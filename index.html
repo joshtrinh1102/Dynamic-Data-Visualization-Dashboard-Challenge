@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Data Visualization Dashboard</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="example.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <svg width="960" height="500"></svg>
+    <div class="container">
+        <h1>Stock Data Visualization</h1>
+        <label for="date">Date:</label>
+        <select id="date">
+            <option ></option>
+        </select>
+        
+        <label for="stock">Stock:</label>
+        <select id="stock"></select>
+        
+        <div id="chart"></div>
+    </div>
+</body>
+</html>
